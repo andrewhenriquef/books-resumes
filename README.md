@@ -1,0 +1,1 @@
+# Este repositório foi criado com o objetivo de salvar alguns pontos importantes de livros que leio
