@@ -22,4 +22,23 @@
 - Cada um dos sintomas de um design ruim acontece por conta de novas e não planejadas dependencias entre modulos
 
 ## Principios de design de classes orientadas a objeto
-### O principio do aberto e fechado
+### O principio do aberto e fechado(OCP)
+> Um módulo deve ser aberto para extensão e fechado para modificação
+
+> Ser capaz de mudar o que o modulo faz sem editar o código fonte do modulo
+
+**Técnicas:**
+
+- Polimorfismo dinamico
+  - Interfaces
+
+- Polimorfismo estático
+  - Templates ou genericos
+
+Ao usar uma dessas técnicas podemos criar modulos que são extensiveis sem serem modificados. Isso significa que podemos facilmente adicionar funcionalidades a um código existente, apenas adicionando novas linhas de código, sem modificar o código já existente.
+
+### O principio de substituição de Liskov (LSP)
+> Subclasses deveriam poder ser substituidas pela sua classe base
+
+
+
